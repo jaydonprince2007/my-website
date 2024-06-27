@@ -1,0 +1,123 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* -------------------------------------------- */
+
+
+/* ---- Navigation Bar ---- */
+
+/* Styling the top navigation bar */
+.navbar
+{
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Styling bar links */
+.navbar a
+{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Change hover color */
+.navbar a:hover
+{
+    background-color: #ffffff;
+    color: black;
+}
+
+
+/* ---- Header ---- */
+
+/* Header attributes */
+.header
+{
+    padding: 80px;
+    text-align: center;
+    background: #500000;
+    color: white;
+}
+
+/* Header text attributes */
+
+.header h1
+{
+    font-size: 40px;
+}
+
+
+/* Header quote text attributes */
+
+.header p
+{
+    color: red;
+}
+
+
+/* ---- Column container ---- */
+
+/* Dividing sections */
+
+.row
+{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+/* "About Me" section's attributes */
+
+.side
+{
+    -ms-flex: 30%;
+    flex: 30%;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+
+/* ---- Image dimentions ---- */
+
+#Jaydon
+{
+    width: 300px;
+    height: 400px;
+}
+
+#animal
+{
+    width: 400px;
+    height: 250px;
+}
+
+/* Main colum */
+.main {
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+  /*toggle */
+  .hidden {
+    display: none;
+}
+  /* Footer */
+  .footer{
+    padding: 20px;
+    text-align: center;
+    background:#0457f1
+}
